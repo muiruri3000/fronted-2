@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+ 
+    margin:0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Figtree';
+    font-weight: 400;
+    font-size: 16px;
+}
+.custom-svg{
+   border-radius: 40px;
+}
+
+.sec{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main{
+    border: 1px solid;
+    width: 310px;
+    
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+    padding: 20px;
+
+}
+.published{
+    font-size: 10px;
+}
+.title{
+    font-weight: 900;
+}
+.learning{
+
+    padding: 0 10px;
+    background-color:  hsl(47, 88%, 63%);
+    margin-top: 12px;
+    align-self: self-start;
+}
+.para{
+    font-size: 12px;
+    font-family: Figtree;
+    font-weight: 100;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+ 
+}
+img{
+    height: 30px;
+}
+.greg{
+    margin-left: 15px;
+    font-size: 10px;
+}
+p,h3{
+    margin:7px 0;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:  hsl(47, 88%, 63%);;
+}
+
+@media (min-width:375px){
+    main{
+        width: 250px;
+    }
+}
+
+@media (min-width:1440px){
+    main{
+        width: 400px;
+    }
+}
